@@ -1,0 +1,32 @@
+@import "fontawesome-free/css/all.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base{
+
+}
+@layer components{
+    .media{
+        @apply grid sm:grid-cols-1 md:grid-cols-12;
+    }
+    .input{
+        @apply w-32 duration-1000 hover:w-52 outline-none bg-gray-400 shadow-md shadow-gray-700 h-8 rounded-md text-gray-600 font-bold indent-12 placeholder:text-gray-600; 
+    }
+}
+@layer utilities{
+   .card:hover{
+    transform: rotateY(90deg);
+    transition: 0.4s all ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+   }
+   .card2:hover .card1{
+    transition: 1s all ease-in;
+    display: block;
+   }
+  
+   
+}
