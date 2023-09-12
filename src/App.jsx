@@ -5,9 +5,9 @@ import Menu from './Page/Menu'
 const Logo = ()=>{
   return(
     <div className="relative py-4 flex justify-center items-center px-20">
-      <div className='border-r-8 absolute left-0 top-2 rounded-full border-indigo-900 w-16 h-16 shadow-inner shadow-pink-900'></div>
-      <div className='border-r-8 absolute left-4 top-10 rounded-full border-blue-900 w-16 h-16 shadow-inner shadow-pink-900'></div>
-      <div className='border-r-8 absolute -left-4 top-10 rounded-full  border-lime-900 w-16 h-16 shadow-inner shadow-orange-900'></div>
+      <div className='border-r-8 absolute left-0 top-2 animate-spin rounded-full border-indigo-900 w-16 h-16 shadow-inner shadow-pink-900'></div>
+      <div className='border-r-8 absolute left-4 top-10 animate-spin rounded-full border-blue-900 w-16 h-16 shadow-inner shadow-pink-900'></div>
+      <div className='border-r-8 absolute -left-4 top-10 rounded-full animate-spin  border-lime-900 w-16 h-16 shadow-inner shadow-orange-900'></div>
     </div>
   )
 }
